@@ -1,6 +1,6 @@
 from django import forms
 
-class new_user(forms.Form):
+class new_user (forms.Form):
 
     name = forms.CharField(max_length=40)
     Cedula = forms.FloatField()
